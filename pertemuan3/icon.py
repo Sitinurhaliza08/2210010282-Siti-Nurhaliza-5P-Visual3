@@ -1,0 +1,16 @@
+import PySimpleGUI as sg
+susunan = [[sg.Text("Uniska MAAB", font=("Helvetica", 24))],
+           [sg.Text("BANJARMASIN", font=("Courier", 18))]]
+window = sg.Window(title="New Icon",
+                   layout=susunan,
+                   element_justification= "center",
+                   icon="favian.ico",
+                   size=(430, 200))
+
+window.read()
+window.close()
+
+# Dibuat Oleh :
+# Nama : Siti Nurhaliza
+# NPM : 2210010282
+# Kelas : 5P Reguler Pagi Banjarmasin
